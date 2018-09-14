@@ -6,9 +6,9 @@ The main goal of the application context is to gather all the data which will be
 package context
 
 import (
-	OrbitError "github.com/gulien/orbit/app/error"
-	"github.com/gulien/orbit/app/helpers"
-	"github.com/gulien/orbit/app/logger"
+	OrbitError "github.com/manjunathkg/orbit/app/error"
+	"github.com/manjunathkg/orbit/app/helpers"
+	"github.com/manjunathkg/orbit/app/logger"
 )
 
 // OrbitContext contains the data necessary for executing a data-driven template.

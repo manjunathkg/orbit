@@ -9,8 +9,8 @@ tasks:
     short: Runs CI process inside a container on Linux and MacOS, or directly on host on Windows
     run:
       {{ if ne "windows" os }}
-      - docker build -t gulien/orbit:ci .
-      - docker run --rm -e "VERSION={{ .Orbit.Version }}" -v "$(pwd)/.ci:/go/src/github.com/gulien/orbit/.ci" gulien/orbit:ci
+      - docker build -t manjunathkg/orbit:ci .
+      - docker run --rm -e "VERSION={{ .Orbit.Version }}" -v "$(pwd)/.ci:/go/src/github.com/manjunathkg/orbit/.ci" manjunathkg/orbit:ci
       {{ else }}
       - go get -u gopkg.in/alecthomas/gometalinter.v2
       - gometalinter.v2 --install

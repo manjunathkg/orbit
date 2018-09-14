@@ -5,9 +5,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/gulien/orbit/app/logger"
+	"github.com/manjunathkg/orbit/app/logger"
 
-	"github.com/sirupsen/logrus"
+	"github.com/manjunathkg/logrus"
 )
 
 /*

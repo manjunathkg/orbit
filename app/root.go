@@ -2,7 +2,7 @@
 package app
 
 import (
-	"github.com/gulien/orbit/app/logger"
+	"github.com/manjunathkg/orbit/app/logger"
 
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

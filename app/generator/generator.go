@@ -12,9 +12,9 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"github.com/gulien/orbit/app/context"
-	OrbitError "github.com/gulien/orbit/app/error"
-	"github.com/gulien/orbit/app/logger"
+	"github.com/manjunathkg/orbit/app/context"
+	OrbitError "github.com/manjunathkg/orbit/app/error"
+	"github.com/manjunathkg/orbit/app/logger"
 
 	"github.com/Masterminds/sprig"
 )

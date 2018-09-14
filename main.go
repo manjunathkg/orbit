@@ -8,16 +8,16 @@ and "sed -i" commands. As it does not aim to be as powerful as these two
 commands, Orbit offers an elegant solution for running tasks and generating
 files from templates, whatever the platform you're using.
 
-For more information, go to https://github.com/gulien/orbit.
+For more information, go to https://github.com/manjunathkg/orbit.
 */
 package main
 
 import (
 	"os"
 
-	"github.com/gulien/orbit/app"
-	"github.com/gulien/orbit/app/logger"
-	OrbitVersion "github.com/gulien/orbit/app/version"
+	"github.com/manjunathkg/orbit/app"
+	"github.com/manjunathkg/orbit/app/logger"
+	OrbitVersion "github.com/manjunathkg/orbit/app/version"
 )
 
 /*

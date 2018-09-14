@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	OrbitError "github.com/gulien/orbit/app/error"
-	"github.com/gulien/orbit/app/helpers"
-	"github.com/gulien/orbit/app/logger"
+	OrbitError "github.com/manjunathkg/orbit/app/error"
+	"github.com/manjunathkg/orbit/app/helpers"
+	"github.com/manjunathkg/orbit/app/logger"
 
 	"gopkg.in/yaml.v2"
 )

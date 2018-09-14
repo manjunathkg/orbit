@@ -18,10 +18,10 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/gulien/orbit/app/context"
-	OrbitError "github.com/gulien/orbit/app/error"
-	"github.com/gulien/orbit/app/generator"
-	"github.com/gulien/orbit/app/logger"
+	"github.com/manjunathkg/orbit/app/context"
+	OrbitError "github.com/manjunathkg/orbit/app/error"
+	"github.com/manjunathkg/orbit/app/generator"
+	"github.com/manjunathkg/orbit/app/logger"
 
 	"gopkg.in/yaml.v2"
 )

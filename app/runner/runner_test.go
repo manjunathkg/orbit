@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gulien/orbit/app/context"
+	"github.com/manjunathkg/orbit/app/context"
 )
 
 // Tests if initializing an OrbitRunner throws an error

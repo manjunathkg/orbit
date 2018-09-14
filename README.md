@@ -4,20 +4,20 @@
 <h3 align="center">Orbit</h3>
 <p align="center">A cross-platform task runner for executing commands and generating files from templates</p>
 <p align="center">
-    <a href="https://travis-ci.org/gulien/orbit">
-        <img src="https://travis-ci.org/gulien/orbit.svg?branch=master" alt="Travis CI">
+    <a href="https://travis-ci.org/manjunathkg/orbit">
+        <img src="https://travis-ci.org/manjunathkg/orbit.svg?branch=master" alt="Travis CI">
     </a>
-    <a href="https://ci.appveyor.com/project/gulien/orbit">
+    <a href="https://ci.appveyor.com/project/manjunathkg/orbit">
         <img src="https://ci.appveyor.com/api/projects/status/fj6q6y75vdugn99i/branch/master?svg=true" alt="AppVeyor">
     </a>
-    <a href="https://godoc.org/github.com/gulien/orbit">
-        <img src="https://godoc.org/github.com/gulien/orbit?status.svg" alt="GoDoc">
+    <a href="https://godoc.org/github.com/manjunathkg/orbit">
+        <img src="https://godoc.org/github.com/manjunathkg/orbit?status.svg" alt="GoDoc">
     </a>
-    <a href="https://goreportcard.com/report/gulien/orbit">
-        <img src="https://goreportcard.com/badge/github.com/gulien/orbit" alt="Go Report Card">
+    <a href="https://goreportcard.com/report/manjunathkg/orbit">
+        <img src="https://goreportcard.com/badge/github.com/manjunathkg/orbit" alt="Go Report Card">
     </a>
-    <a href="https://codecov.io/gh/gulien/orbit/branch/master">
-        <img src="https://codecov.io/gh/gulien/orbit/branch/master/graph/badge.svg" alt="Codecov">
+    <a href="https://codecov.io/gh/manjunathkg/orbit/branch/master">
+        <img src="https://codecov.io/gh/manjunathkg/orbit/branch/master/graph/badge.svg" alt="Codecov">
     </a>
 </p>
 

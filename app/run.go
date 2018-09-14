@@ -1,8 +1,8 @@
 package app
 
 import (
-	"github.com/gulien/orbit/app/context"
-	"github.com/gulien/orbit/app/runner"
+	"github.com/manjunathkg/orbit/app/context"
+	"github.com/manjunathkg/orbit/app/runner"
 
 	"github.com/spf13/cobra"
 )

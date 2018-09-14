@@ -1,6 +1,6 @@
 FROM golang:1.10-stretch
 
-WORKDIR /go/src/github.com/gulien/orbit
+WORKDIR /go/src/github.com/manjunathkg/orbit
 
 # Installs lint dependencies.
 RUN go get -u gopkg.in/alecthomas/gometalinter.v2 &&\

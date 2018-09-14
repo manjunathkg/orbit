@@ -6,7 +6,7 @@ package logger
 import (
 	"os"
 
-	OrbitError "github.com/gulien/orbit/app/error"
+	OrbitError "github.com/manjunathkg/orbit/app/error"
 
 	"github.com/sirupsen/logrus"
 )

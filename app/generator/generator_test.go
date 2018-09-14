@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gulien/orbit/app/context"
+	"github.com/manjunathkg/orbit/app/context"
 
 	"gopkg.in/yaml.v2"
 )

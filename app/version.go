@@ -3,7 +3,7 @@ package app
 import (
 	"fmt"
 
-	OrbitVersion "github.com/gulien/orbit/app/version"
+	OrbitVersion "github.com/manjunathkg/orbit/app/version"
 
 	"github.com/spf13/cobra"
 )

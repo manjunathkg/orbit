@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	OrbitError "github.com/gulien/orbit/app/error"
+	OrbitError "github.com/manjunathkg/orbit/app/error"
 
 	"github.com/BurntSushi/toml"
 	"github.com/joho/godotenv"
