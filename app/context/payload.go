@@ -65,25 +65,25 @@ func (p *orbitPayload) populateFromFile(filePath string) error {
 // populateFromString populates the instance of orbitPayload
 // with entries provided by a string.
 func (p *orbitPayload) populateFromString(payload string, templates string) error {
-	logger.Debugf("KGM::: Inside populateFromString::  ********** payload = %s ", payload)
+	logger.Debugf("*** KGM::: Inside populateFromString::  ********** payload = %s ", payload)
 	// first, checks if a payload has been given.
 	if payload == "" && templates == "" {
 		logger.Debugf("no payload and templates flags given, skipping" )
 		return nil
 	}
 
-	logger.Debugf("KGM::: Inside populateFromString:: ********** payload = %s ", payload) 
+	logger.Debugf("*** KGM::: Inside populateFromString:: ********** payload = %s ", payload) 
 
 	if payload != "" {
 		// the payload string should be in the following format:
 		// key,value;key,value.
 		entries := strings.Split(payload, ";")
-		logger.Debugf("KGM::: Inside populateFromString:: After splitting : entries = %s ", entries) 
+		logger.Debugf("*** KGM::: Inside populateFromString:: After splitting : entries = %s ", entries) 
 		for _, entry := range entries {
 			entry := strings.Split(entry, ",")
-			logger.Debugf("KGM::: Inside populateFromString:: After second split :Processing entry = %s ", entry)
+			logger.Debugf("*** KGM::: Inside populateFromString:: After second split :Processing entry = %s ", entry)
 			if len(entry) == 1 {
-				return OrbitError.NewOrbitErrorf("KGM:: unable to process the payload entry %s", entry)
+				return OrbitError.NewOrbitErrorf("*** KGM:: unable to process the payload entry %s", entry)
 			}
 
 			p.PayloadEntries = append(p.PayloadEntries, &orbitPayloadEntry{
