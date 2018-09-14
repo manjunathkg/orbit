@@ -54,7 +54,7 @@ func (p *orbitPayload) populateFromFile(filePath string) error {
 		return OrbitError.NewOrbitErrorf("unable to read the payload file %s. Details:\n%s", filePath, err)
 	}
 
-	// ...then parses the YAML.
+	// then parses the YAML.
 	if err := yaml.Unmarshal(data, &p); err != nil {
 		return OrbitError.NewOrbitErrorf("payload file %s is not a valid YAML file. Details:\n%s", filePath, err)
 	}
@@ -67,16 +67,20 @@ func (p *orbitPayload) populateFromFile(filePath string) error {
 func (p *orbitPayload) populateFromString(payload string, templates string) error {
 	// first, checks if a payload has been given.
 	if payload == "" && templates == "" {
-		logger.Debugf("no payload and templates flags given, skipping")
+		logger.Debugf("no payload and templates flags given, skipping" )
 		return nil
 	}
+
+	logger.Debugf("payload = %s ", payload) 
 
 	if payload != "" {
 		// the payload string should be in the following format:
 		// key,value;key,value.
 		entries := strings.Split(payload, ";")
+		logger.Debugf("Payload Not empty: entries = %s ", entries) 
 		for _, entry := range entries {
 			entry := strings.Split(entry, ",")
+			logger.Debugf("Payload Not empty:Processing entry = %s ", entry)
 			if len(entry) == 1 {
 				return OrbitError.NewOrbitErrorf("unable to process the payload entry %s", entry)
 			}
