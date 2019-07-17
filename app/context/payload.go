@@ -68,11 +68,15 @@ func (p *orbitPayload) populateFromString(payload string, templates string) erro
 	logger.Debugf("*** KGM::: Inside populateFromString::  ********** payload = %s ", payload)
 	// first, checks if a payload has been given.
 	if payload == "" && templates == "" {
-		logger.Debugf("no payload and templates flags given, skipping")
+		logger.Debugf("no payload and templates flags given, skipping" )
 		return nil
 	}
 
+<<<<<<< HEAD
 	logger.Debugf("*** KGM::: Inside populateFromString:: ********** payload = %s ", payload)
+=======
+	logger.Debugf("*** KGM::: Inside populateFromString:: ********** payload = %s ", payload) 
+>>>>>>> 82a5851c9ce539ddd64eed938f4585a0af168136
 
 	if payload != "" {
 
@@ -80,7 +84,11 @@ func (p *orbitPayload) populateFromString(payload string, templates string) erro
 		// the payload string should be in the following format:
 		// key,value;key,value.
 		entries := strings.Split(payload, ";")
+<<<<<<< HEAD
 		logger.Debugf("*** KGM::: Inside populateFromString:: After splitting : entries = %s", entries)
+=======
+		logger.Debugf("*** KGM::: Inside populateFromString:: After splitting : entries = %s ", entries) 
+>>>>>>> 82a5851c9ce539ddd64eed938f4585a0af168136
 		for _, entry := range entries {
 			entry = strings.TrimSpace(entry)
 			if len(entry) <= 1 {
@@ -88,11 +96,15 @@ func (p *orbitPayload) populateFromString(payload string, templates string) erro
 			}
 
 			entry := strings.Split(entry, ",")
+<<<<<<< HEAD
 			logger.Debugf("**** KGM: Length if entry array is == %s ", len(entry))
 			logger.Debugf("**** entry 0 == %s", entry[0])
 			logger.Debugf("**** entry 1 == %s", entry[1])
 
 			logger.Debugf("*** KGM::: Inside populateFromString:: After second split :Processing entry = %s", entry)
+=======
+			logger.Debugf("*** KGM::: Inside populateFromString:: After second split :Processing entry = %s ", entry)
+>>>>>>> 82a5851c9ce539ddd64eed938f4585a0af168136
 			if len(entry) == 1 {
 				return OrbitError.NewOrbitErrorf("*** KGM:: unable to process the payload entry %s", entry)
 			}
