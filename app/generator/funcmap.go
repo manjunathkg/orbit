@@ -7,7 +7,7 @@ import (
 
 	"github.com/manjunathkg/orbit/app/logger"
 
-	"github.com/manjunathkg/logrus"
+	"github.com/sirupsen/logrus"
 )
 
 /*
